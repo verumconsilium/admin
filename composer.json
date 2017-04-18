@@ -2,6 +2,7 @@
     "name": "veco/admin",
     "description": "Laravel admin panel mockup",
     "type": "library",
+    "homepage": "https://github.com/verumconsilium/admin",
     "require": {
     	"php": ">=5.6.4",
         "illuminate/auth": "~5.4",
