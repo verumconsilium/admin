@@ -12,12 +12,16 @@ class AdminServiceProvider extends ServiceProvider
 	 * @return void
 	 */
 	public function boot()
-	{
-		
+	{	
+		$this->publishes([
+			__DIR__.'/../assets/css' => resource_path('assets/css/admin'),
+			__DIR__.'/../assets/js' => resource_path('assets/js/admin'),
+			__DIR__.'/../assets/views' => resource_path('views/admin')
+		], 'admin');
 	}
 
 	 /**
-     * Register bindings in the container.
+     * Register the application services.
      *
      * @return void
      */
