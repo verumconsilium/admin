@@ -1,0 +1,22 @@
+{
+    "name": "veco/admin",
+    "description": "Laravel admin panel mockup",
+    "type": "library",
+    "require": {
+    	"php": ">=5.6.4",
+        "illuminate/auth": "~5.4",
+        "illuminate/console": "~5.4",
+        "illuminate/container": "~5.4",
+        "illuminate/contracts": "~5.4",
+        "illuminate/database": "~5.4",
+        "illuminate/encryption": "~5.4",
+        "illuminate/http": "~5.4",
+        "illuminate/support": "~5.4",
+    },
+    "autoload": {
+    	"psr-4"	: {
+    		"VerumConsilium\\Admin\\": "src/"
+    	}
+    },
+    "license": "MIT"
+}
