@@ -6,6 +6,13 @@ Feel free to use this package if it is of any use to you
 
 ## Installation
 
+The admin panel works on top of [Laravel's Authentication](https://laravel.com/docs/authentication) so in order to use the package you will need to create the Laravel Authentication with the next command:
+
+``` 
+php artisan make:auth
+``` 
+
+
 To install the package first you'll need to require it trough composer
 
 ```
