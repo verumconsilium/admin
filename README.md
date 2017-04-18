@@ -12,7 +12,7 @@ To install the package first you'll need to require it trough composer
 composer require verumconsilium/admin
 ``` 
 
-Once you've installed the package the next step is register the Service Provider 
+Once you've installed the package the next step is to register the Service Provider.
 Add the next element to the providers array in your `config/app.php` file
 
 ```php
